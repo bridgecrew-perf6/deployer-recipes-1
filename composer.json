@@ -1,0 +1,24 @@
+{
+    "name": "duncrow-gmbh/deployer-recipes",
+    "description": "duncrow-gmbh deployer recipes",
+    "type": "library",
+    "homepage": "https://github.com/duncrow-gmbh/deployer-recipes",
+    "authors": [
+        {
+            "name": "Clemens Martin",
+            "email": "clemens@duncrow.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1 || ^8.0"
+    },
+    "require-dev": {
+        "deployer/deployer": "^6.3",
+        "deployer/recipes": "^6.2"
+    },
+    "autoload": {
+        "files": [
+            "autoload.php"
+        ]
+    }
+}

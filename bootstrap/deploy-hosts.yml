@@ -1,0 +1,11 @@
+.base: &base
+  bin/composer: '{{bin/php}} /opt/psa/var/modules/composer/composer.phar'
+  bin/php: '/opt/plesk/php/7.4/bin/php'
+
+remote.domain.com:
+  <<: *base
+  user: USER
+  port: PORT
+  stage: STAGE
+  deploy_path: ~/PATH
+
