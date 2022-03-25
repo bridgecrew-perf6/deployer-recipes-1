@@ -3,6 +3,7 @@
     "description": "duncrow-gmbh deployer recipes",
     "type": "library",
     "homepage": "https://github.com/duncrow-gmbh/deployer-recipes",
+    "license": "MIT",
     "authors": [
         {
             "name": "Clemens Martin",
